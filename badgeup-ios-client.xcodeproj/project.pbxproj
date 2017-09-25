@@ -14,6 +14,7 @@
 		D7296FA31F78C1EB00D545CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7296FA11F78C1EB00D545CF /* LaunchScreen.storyboard */; };
 		D7296FAE1F78C1EB00D545CF /* badgeup_ios_clientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7296FAD1F78C1EB00D545CF /* badgeup_ios_clientTests.swift */; };
 		D7296FB91F78C1EB00D545CF /* badgeup_ios_clientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7296FB81F78C1EB00D545CF /* badgeup_ios_clientUITests.swift */; };
+		D7296FC91F78E4C300D545CF /* FantasticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7296FC81F78E4C300D545CF /* FantasticView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D7296FB41F78C1EB00D545CF /* badgeup-ios-clientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "badgeup-ios-clientUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7296FB81F78C1EB00D545CF /* badgeup_ios_clientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = badgeup_ios_clientUITests.swift; sourceTree = "<group>"; };
 		D7296FBA1F78C1EB00D545CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7296FC81F78E4C300D545CF /* FantasticView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FantasticView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				D7296F981F78C1EB00D545CF /* AppDelegate.swift */,
 				D7296F9A1F78C1EB00D545CF /* ViewController.swift */,
+				D7296FC81F78E4C300D545CF /* FantasticView.swift */,
 				D7296F9C1F78C1EB00D545CF /* Main.storyboard */,
 				D7296F9F1F78C1EB00D545CF /* Assets.xcassets */,
 				D7296FA11F78C1EB00D545CF /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				D7296F9B1F78C1EB00D545CF /* ViewController.swift in Sources */,
 				D7296F991F78C1EB00D545CF /* AppDelegate.swift in Sources */,
+				D7296FC91F78E4C300D545CF /* FantasticView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +511,7 @@
 				D7296FBF1F78C1EB00D545CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7296FC01F78C1EB00D545CF /* Build configuration list for PBXNativeTarget "badgeup-ios-clientTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				D7296FC21F78C1EB00D545CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7296FC31F78C1EB00D545CF /* Build configuration list for PBXNativeTarget "badgeup-ios-clientUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				D7296FC51F78C1EB00D545CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
